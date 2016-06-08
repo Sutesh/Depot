@@ -5,14 +5,14 @@ gem 'uglifier'
 gem 'coffee-rails'
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
+gem 'bcrypt-ruby'
 gem 'turbolinks'
 gem 'jbuilder'
 gem 'sdoc', group: :doc
 group :development, :test do
-gem 'bcrypt-ruby'
 gem 'sqlite3'
 gem 'byebug'
-gem 'web-console', '2.0.0.beta3'
+gem 'web-console'
 gem 'spring'
 end
 group :production do
